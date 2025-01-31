@@ -22,7 +22,7 @@ ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ
 USERNAME = environ.get('USERNAME', "https://t.me/Wtf_u_want") # ADMIN USERNAME
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002369020908'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/OxmnfufB85hYjc9')
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002251640921').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002362606422').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://akashrabha2005:781120@cluster0.pv6yd2f.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
@@ -31,9 +31,9 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'My_Tg_files')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #----------- There will be channel id add in all these ---------
-LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002430360924'))  # set shortner log channel
-DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','-1002430360924')) # The movie you upload in it will be deleted from the bot.
-LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002430360924'))
+LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002496066296'))  # set shortner log channel
+DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','-1002495936876')) # The movie you upload in it will be deleted from the bot.
+LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002438892871'))
 auth_channel = environ.get('AUTH_CHANNEL', '-1002430360924')
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1002430360924'))
 request_channel = environ.get('REQUEST_CHANNEL', '-1002430360924') # If anyone sends a request message to your bot, you will get it in this channel.
