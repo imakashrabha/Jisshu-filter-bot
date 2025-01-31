@@ -69,23 +69,23 @@ REQUEST_CHANNEL = int(request_channel) if request_channel and id_pattern.search(
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-START_IMG = (environ.get('START_IMG', 'https://i.ibb.co/qpxpGmC/image.jpg https://i.ibb.co/DQ35zLZ/image.jpg')).split()
+START_IMG = (environ.get('START_IMG', 'https://envs.sh/OCt.jpg https://envs.sh/OCF.jpg')).split()
 FORCESUB_IMG = environ.get('FORCESUB_IMG', 'https://i.ibb.co/ZNC1Hnb/ad3f2c88a8f2.jpg')
 REFER_PICS = (environ.get("REFER_PICS", "https://envs.sh/PSI.jpg")).split() 
-PAYPICS = (environ.get('PAYPICS', 'https://graph.org/file/f4db1c3ad3d9e38b328e6.jpg')).split()
-SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://graph.org/file/9f3f47c690bbcc67633c2.jpg'))
+PAYPICS = (environ.get('PAYPICS', 'https://envs.sh/OCu.jpg')).split()
+SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://envs.sh/OC2.jpg'))
 REACTIONS = ["👀", "😱", "🔥", "😍", "🎉", "🥰", "😇", "⚡"]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-FILE_AUTO_DEL_TIMER = int(environ.get('FILE_AUTO_DEL_TIMER', '600'))
+FILE_AUTO_DEL_TIMER = int(environ.get('FILE_AUTO_DEL_TIMER', '300'))
 AUTO_FILTER = is_enabled('AUTO_FILTER', True)
 IS_PM_SEARCH = is_enabled('IS_PM_SEARCH', False)
 IS_SEND_MOVIE_UPDATE = is_enabled('IS_SEND_MOVIE_UPDATE', False) # Don't Change It ( If You Want To Turn It On Then Turn It On By Commands) We Suggest You To Make It Turn Off If You Are Indexing Files First Time.
 PORT = environ.get('PORT', '5000')
 MAX_BTN = int(environ.get('MAX_BTN', '8'))
 AUTO_DELETE = is_enabled('AUTO_DELETE', True)
-DELETE_TIME = int(environ.get('DELETE_TIME', 1200))
+DELETE_TIME = int(environ.get('DELETE_TIME', 300))
 IMDB = is_enabled('IMDB', False)
 FILE_CAPTION = environ.get('FILE_CAPTION', f'{script.FILE_CAPTION}')
 IMDB_TEMPLATE = environ.get('IMDB_TEMPLATE', f'{script.IMDB_TEMPLATE_TXT}')
