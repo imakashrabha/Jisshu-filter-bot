@@ -214,13 +214,7 @@ async def start(client:Client, message):
                             InlineKeyboardButton('☆ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ☆', url=f'http://t.me/{temp.U_NAME}?startgroup=start')
                         ],[
                             InlineKeyboardButton("Hᴇʟᴘ ⚙️", callback_data='features'),
-                            InlineKeyboardButton('Aʙᴏᴜᴛ 💌', callback_data=f'about')
-                        ],[
-                            InlineKeyboardButton('Pʀᴇᴍɪᴜᴍ 🎫', callback_data='seeplans'),
-                            InlineKeyboardButton('Rᴇғᴇʀ ⚜️', callback_data="reffff")
-                        ],[
-                            InlineKeyboardButton('Mᴏsᴛ Sᴇᴀʀᴄʜ 🔍', callback_data="mostsearch"),
-                            InlineKeyboardButton('Tᴏᴘ Tʀᴇɴᴅɪɴɢ ⚡', callback_data="trending")
+                            InlineKeyboardButton('Aʙᴏᴜᴛ 💌', callback_data=f'about')
                         ]] 
         reply_markup = InlineKeyboardMarkup(buttons)
         m=await message.reply_sticker("CAACAgQAAxkBAAOfZ52_XifR94QAAV3ubAifLilNJH0sAAI5DQACTPv4UH4vKZ0cCgxjNgQ") 
